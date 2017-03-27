@@ -65,7 +65,7 @@ label{
   box-shadow: 3px;
   border: 2px solid #F05F40;
   height: 100px;
-  width: 400px;
+  width: 413px;
 }
 #bouton{
   border-radius: 30px;
@@ -76,11 +76,12 @@ label{
   color: white;
   background-color: #F05F40;
   border: none;
+  margin-top: 10px;
 }
-.form{
+.form form{
   margin: auto;
   margin-top: 150px;
-  width: 500px;
+  width: 425px;
 }
 .bg-primary {
   background-color: #F05F40;
