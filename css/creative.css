@@ -40,6 +40,11 @@ h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
+.projet{
+  text-align:center;
+  margin-top: 50px;
+  color: white;
+}
 p {
   font-size: 16px;
   line-height: 1.5;
@@ -104,6 +109,11 @@ section #portfolio{
 }
 .no-padding {
   padding: 0;
+  background-color: #64686C;
+  border-bottom: 3px solid black;
+}
+.no-padding .light{
+  margin-bottom: 35px;
 }
 .navbar-default {
   background-color: white;
