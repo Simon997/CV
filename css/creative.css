@@ -54,6 +54,21 @@ label{
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   margin-top: 5px;
 }
+.container .text-muted{
+  font-size: 13px;
+  color: #CECECE;
+}
+.container .text-muted img{
+  margin-bottom: 7px;
+  margin-right: 5px;
+}
+.container .text-muted a{
+  color: #CECECE;
+}
+.container .presentation{
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  line-height: 28px;
+}
 #lastname{
   margin-bottom: 5px;
   margin-right: 10px;

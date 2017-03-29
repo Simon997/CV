@@ -32,6 +32,8 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 
 </head>
 
@@ -50,11 +52,11 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">CV</a>
+                     <li>
+                        <a class="page-scroll" href="#services">À propos</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">À propos</a>
+                        <a class="page-scroll" href="#about">CV</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -77,7 +79,7 @@
                 <h1 id="homeHeading">Développeur Web/Mobile</h1>
                 <hr>
                 <p>Passionné par le développement Web et le développement mobile</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Apprenez-en plus</a>
+                <a href="content.html#services" class="btn btn-primary btn-xl page-scroll">Apprenez-en plus</a>
             </div>
         </div>
     </header>
@@ -86,7 +88,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Qui suis-je ?</h2>
+                    <h2 class="section-heading">Informations</h2>
                     <hr class="primary">
                 </div>
             </div>
@@ -103,8 +105,10 @@
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>Voyages</h3>
-                        <p class="text-muted">Séjour à New York et régulièrement à Londres.</p>
+                        <h3>Réseaux sociaux</h3>
+                        <p class="text-muted"><img src="img/twitter.png" alt="twitter"/><a href="https://twitter.com/Simon_311">Twitter</a></br>
+                                              <img src="img/facebook.png" alt="facebook"/><a href="https://www.facebook.com/simon.boily1">Facebook</a></br>
+                                              <img src="img/linkedin.png" alt="facebook"/><a href="https://www.linkedin.com/in/simon-boily-53381413a/">LinKedin</a></br></p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
@@ -147,7 +151,7 @@
                 <h2 class="projet">Mes Projets</h2>
                 <hr class="light">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="https://Simon997.github.io/Projet_Arrow" class="portfolio-box" style="height: 270px;">
+                    <a href="img/arrow.png" class="portfolio-box" style="height: 270px;">
                         <img src="img/arrow.png" class="img-responsive" alt="" style="height: 270px; width: 500px;">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -162,7 +166,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
+                    <a href="img/Chargement.jpeg" class="portfolio-box">
                         <img src="img/Chargement.jpeg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -177,7 +181,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
+                    <a href="img/Chargement.jpeg" class="portfolio-box">
                         <img src="img/Chargement.jpeg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -214,7 +218,7 @@
                 <div class="form">
                   <form action="https://formspree.io/sim.boily311@gmail.com" method="POST">
                       <label for="lastname">Nom</label></br>
-                      <input type="text" placeholder="Nom" id="lastname" name="Nom"/>
+                      <input type="text" placeholder="Nom" id="lastname" name="Nom" onblur="verifPseudo(this)"/>
                       <input type="text" placeholder="Prénom" id="lastname" name="Prénom"/></br>
                       <label for="lastname">Email</label></br>
                       <input type="text" placeholder="Email" id="lastname" name="Email"/></br>
