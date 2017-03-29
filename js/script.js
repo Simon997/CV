@@ -39,25 +39,21 @@ $(document).ready(function() {
 
 
 		});*/
-		function surligne(champ, erreur){
-   		if(erreur==true){
-      	champ.style.backgroundColor = "#fba";
-   		}
-   		else
-      	champ.style.backgroundColor = "";
-		}
 
-		function verifPseudo(champ){
-   		if(champ.value.length < 2 || champ.value.length > 25){
-      	surligne(champ, true);
-      	return false;
-   		}
-   		else{
-      	surligne(champ, false);
-      	return true;
-   		}
-}
-
+    $("form").submit(function(e){
+      var chaine=document.formSaisie.Email.value;
+      var res=chaine.indexOf("@");
+        // si la valeur du champ prenom est non vide
+      if((document.formSaisie.Nom.value.length >= 4)&&(document.formSaisie.Prénom.value.length >= 4)&&(res!=-1)){
+        // alors on envoie le formulaire
+        document.formSaisie.submit();
+      }
+      else {
+        // sinon on affiche un message
+        alert("Remplissez correctement les champs.")
+        e.preventDefault();
+      }
+    });
 });
 
 
