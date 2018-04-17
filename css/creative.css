@@ -16,12 +16,12 @@ iframe{
   margin-bottom: 20px;
 }
 hr {
-  border-color: rgba(0,0,0,0.2);
+  border-color: #F05F40;
   border-width: 1px;
   max-width: 50px;
 }
 hr.light {
-  border-color: rgba(0,0,0,0.2);
+  border-color: #F05F40;
 }
 a {
   -webkit-transition: all 0.35s;
