@@ -71,11 +71,7 @@ label{
   margin-right: 5px;
 }
 .popu-gallery{
-  width: 90%;
-  margin: auto;
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-between;
+  
 }
 
 
